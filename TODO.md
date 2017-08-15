@@ -1,0 +1,2 @@
+- add styles
+- add redux :)
