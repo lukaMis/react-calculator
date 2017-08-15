@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "babel-node ./server/server.js",
-    "webpack": "webpack --config=webpack.config.js"
+    "webpack": "webpack --config=webpack.config.js",
+    "dev": "npm run webpack && npm start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "babel-cli": "^6.24.1",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   },
