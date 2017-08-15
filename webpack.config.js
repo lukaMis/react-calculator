@@ -12,8 +12,15 @@ const config = {
       {
         test: /\.(js|jsx)$/,
         loader: 'babel-loader'
+      },
+      {
+        test: /\.css$/,
+        loaders: [ 'style-loader', 'css-loader' ]
       }
     ]
+  },
+  resolve: {
+    extensions: ['.js', '.jsx']
   }
 }
 
